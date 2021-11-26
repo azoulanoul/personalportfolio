@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* NAVBAR*/
+#navbar{
+    width: 100%;
+    height: 4em;
+    background: #181818;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5em;
+    opacity: 80%;
+    
+   
+}
+.ul-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4em;
+}
+#hlnav{
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+   bottom: 0px;
+}
+@media (max-width:550px){
+   #navbar{
+       font-size: 1em;
+        display: flex;
+         justify-content: center;
+         align-content: center;
+      
+
+    }
+}
+@media (max-width:380px){
+    .ul-control{
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+       
+ 
+     }
+     #navbar{
+         height: auto;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+     }
+     #logo{
+         margin-top: 20%;
+         margin-bottom: 20%;
+     }
+     #welcome-section{
+         height: 50vh;
+     }
+ }
+li,a{
+    margin: 1em;
+   color: #ffffff;
+}
+#logo{
+    width: 3em;
+    height: 3em;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 4em;
+ 
+  
+}
+/* END NAVBAR */
+/* START WELCOME SECTION */
+#welcome-section{
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    color: white;
+    font-family:  "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    
+
+}
+@media(max-width:900px){
+   #welcome-section{
+    font-size: 1.5em;
+   }
+}
+@media(max-width:700px){
+    #welcome-section{
+     font-size: 1em;
+    }
+ }
+ @media (max-width:380px){
+     #welcome-section{
+         font-size: 0.5em;
+         text-align: center;
+     }
+ }
+
+/* END WELCOME SECTION */
+/* PROJECTS SECTION */
+#projects{
+    width: 100%;
+    height: 100vh;
+    background: #3b3b3b;
+    background-image: url(/img/jardinbotanique.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* END PROJECTS SECTION */
+/*CONTACT SECTION*/
+#contact{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+   
+}
+#letswork{
+    text-align: center;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    padding-top: 2em;
+    color: white;
+}
+#social{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+    
+}
+.icons{
+    font-size:3em ;
+    font-family:  "Poppins", sans-serif;
+    padding-top: 1em;
+    
+    
+}
+#hl{
+    width: 100%;
+    height: 1px;
+    background: rgb(255, 255, 255);
+   
+  
+}
+#created{
+    text-align: center;
+    font-family:  "Poppins", sans-serif;
+    margin-top: 1em;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+
+/* END CONTACT SECTION*/
